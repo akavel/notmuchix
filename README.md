@@ -14,6 +14,7 @@ Or not.
 - *["NixOS boxes for Vagrant"](https://github.com/zimbatm/nixbox)* ?
 - *["Installing NixOS in a VirtualBox guest"](https://nixos.org/wiki/Installing_NixOS_in_a_VirtualBox_guest)* ? According to this wiki, NixOS in VirtualBox requires *"New Hard Disk of 8 GB or higher."*!!! Much too much...
 - *["Quickstart instructions for provisioning NixOS using virtualbox + vagrant"](https://gitlab.com/theerasmas/nixos-vagrant-quickstart/tree/master)* ?
+- Some random [Nixos configuration.nix files](https://lastlog.de/wiki/index.php/Nixos_configuration.nix)
 
 ## Future
 
