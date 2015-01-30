@@ -4,11 +4,12 @@
 
 Ideally, the OS on VirtualBox should be "declarative and immutable", thus hopefully also allowing easy upgrades, possibly thanks to use of [NixOS](http://nixos.org/) or [Guix](http://www.gnu.org/software/guix/) and/or Docker/Vagrant.
 
-If possible and if I find enough time; I'd really hope this'd be doable fast...
+Or not.
 
 ## References
 
-- [Running the Nix package manager within a Docker Container](http://zef.me/blog/6049/nix-docker)
+- **[Running the Nix package manager within a Docker Container](http://zef.me/blog/6049/nix-docker)**
+- [Purely Functional Configuration Management with Nix and NixOS](http://www.infoq.com/articles/configuration-management-with-nix)
 
 ## Future
 
@@ -17,3 +18,4 @@ If I manage to pull this out, further goals would be to:
 - If notmuch proves a tool fitting me enough that I use it, it'd be good if it's possible to convert it to [Go](http://golang.org) with help of the c2go hack. 
 - It would be good to extend the VM with [gmvault](http://gmvault.org/), and make it work together with notmuch. That could hopefully be enough to escape gmail.
   - If not enough to escape gmail, evaluate what else is missing. Currently I suppose that'd be any or all of: spam filtering; another IMAP email client/downloader for accounts different than gmail; some tool for mail composing; some tool over notmuch for mail browsing, with attachments etc.; some tool for mail threads linking?
+
