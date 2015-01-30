@@ -9,6 +9,7 @@ Or not.
 ## References
 
 - **[Declaratively Provision Docker Images Using Nix](http://zef.me/blog/6049/nix-docker)**
+  - Example use: [Deploying Wordpress Using nix-docker](http://zef.me/6079/deploying-wordpress-using-nix-docker)
 - [Purely Functional Configuration Management with Nix and NixOS](http://www.infoq.com/articles/configuration-management-with-nix)
 - *["NixOS Vagrant Plugin"](https://github.com/zimbatm/nixbox)* ?
 - *["NixOS boxes for Vagrant"](https://github.com/zimbatm/nixbox)* ?
