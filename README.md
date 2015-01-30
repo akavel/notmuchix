@@ -18,6 +18,7 @@ Or not.
 - *["Running the Nix package manager within a Docker Container"](http://aaronlevin.ca/post/100703631408/running-the-nix-package-manager-within-a-docker)* ? This is based on a Debian Docker image unfortunately, so most probably too big.
 - *["Boot2Docker"](https://github.com/boot2docker/boot2docker)* ? "Boot2Docker is a lightweight Linux distribution made specifically to run Docker containers. It runs completely from RAM, is a small ~24MB download and boots in ~5s (YMMV)."
 - Some random [Nixos configuration.nix files](https://lastlog.de/wiki/index.php/Nixos_configuration.nix)
+- ([NixOS and Stateless Deployment ](http://gfxmonk.net/2015/01/03/nixos-and-stateless-deployment.html) - a NixOS introductory article.)
 
 ## Future
 
