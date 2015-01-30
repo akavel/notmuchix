@@ -16,6 +16,7 @@ Or not.
 - *["Installing NixOS in a VirtualBox guest"](https://nixos.org/wiki/Installing_NixOS_in_a_VirtualBox_guest)* ? According to this wiki, NixOS in VirtualBox requires *"New Hard Disk of 8 GB or higher."*!!! Much too much...
 - *["Quickstart instructions for provisioning NixOS using virtualbox + vagrant"](https://gitlab.com/theerasmas/nixos-vagrant-quickstart/tree/master)* ?
 - *["Running the Nix package manager within a Docker Container"](http://aaronlevin.ca/post/100703631408/running-the-nix-package-manager-within-a-docker)* ? This is based on a Debian Docker image unfortunately, so most probably too big.
+- *["Boot2Docker"](https://github.com/boot2docker/boot2docker)* ? "Boot2Docker is a lightweight Linux distribution made specifically to run Docker containers. It runs completely from RAM, is a small ~24MB download and boots in ~5s (YMMV)."
 - Some random [Nixos configuration.nix files](https://lastlog.de/wiki/index.php/Nixos_configuration.nix)
 
 ## Future
