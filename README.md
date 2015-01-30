@@ -6,6 +6,29 @@ Ideally, the OS on VirtualBox should be "declarative and immutable", thus hopefu
 
 Or not.
 
+## TinyCoreLinux on Vagrant/VirtualBox?
+
+### Initial manual attempts
+
+Download http://www.tinycorelinux.net/6.x/x86/release/Core-current.iso. (version 6.x, x86; "micro core", i.e. no X Windows).
+
+# BOO, FAIL: don't know how to install VirtualBox Guest Additions on TinyCoreLinux, and those are required in order to enable shared folders :(
+
+Goal idea:
+
+- boot VirtualBox from the TCL .iso
+- make VirtualBox mount a shared directory from Windows, where .tcz files will be stored (should get mounted as /tce; see `tce=...` boot code of TCL)
+- use `restore=...` boot code of TCL to store the dump of local disk on Windows shared folder? or `home=...` boot code?
+- https://firewallengineer.wordpress.com/2013/08/18/how-to-install-virtualbox-guest-additions-in-tiny-core-linux/ and use option `--nox11` when installing the .run file
+
+
+### See also...
+
+- https://packer.io/docs/builders/virtualbox-iso.html - for building a VirtualBox (or Vagrant/Docker) image from an .iso in an automated way. Packer.io is written in Go, so should be cross-platform (seems to have an official Windows build). Still, seems it needs an external VirtualBox instance to build on.
+- http://www.tinycorelinux.net/ports.html - info about 64-bit builds of Tiny Core Linux
+- [Install TinyCoreLinux on VirtualBox - Step by Step](https://machinelearning1.wordpress.com/2012/12/14/install-tinycore-linux-on-virtualbox-step-by-step/)
+- [The TinyCoreLinux Book](http://www.tinycorelinux.net/book.html)
+
 ## References
 
 - **[Declaratively Provision Docker Images Using Nix](http://zef.me/blog/6049/nix-docker)**
