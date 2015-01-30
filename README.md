@@ -8,7 +8,7 @@ Or not.
 
 ## References
 
-- **[Running the Nix package manager within a Docker Container](http://zef.me/blog/6049/nix-docker)**
+- **[Declaratively Provision Docker Images Using Nix](http://zef.me/blog/6049/nix-docker)**
 - [Purely Functional Configuration Management with Nix and NixOS](http://www.infoq.com/articles/configuration-management-with-nix)
 - *["NixOS Vagrant Plugin"](https://github.com/zimbatm/nixbox)* ?
 - *["NixOS boxes for Vagrant"](https://github.com/zimbatm/nixbox)* ?
